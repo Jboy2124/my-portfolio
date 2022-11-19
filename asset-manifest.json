@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Jboy2124/my-portfolio.git/static/css/main.60033689.css",
+    "main.js": "/Jboy2124/my-portfolio.git/static/js/main.ea9841ee.js",
+    "static/js/644.19b50bd9.chunk.js": "/Jboy2124/my-portfolio.git/static/js/644.19b50bd9.chunk.js",
+    "static/js/213.0cefbe65.chunk.js": "/Jboy2124/my-portfolio.git/static/js/213.0cefbe65.chunk.js",
+    "static/js/333.985278b9.chunk.js": "/Jboy2124/my-portfolio.git/static/js/333.985278b9.chunk.js",
+    "static/media/ResumeJBAbecia.pdf": "/Jboy2124/my-portfolio.git/static/media/ResumeJBAbecia.269e43359136c1770aeb.pdf",
+    "static/media/JBA.jpg": "/Jboy2124/my-portfolio.git/static/media/JBA.98f377f4a9275803d6e6.jpg",
+    "index.html": "/Jboy2124/my-portfolio.git/index.html",
+    "main.60033689.css.map": "/Jboy2124/my-portfolio.git/static/css/main.60033689.css.map",
+    "main.ea9841ee.js.map": "/Jboy2124/my-portfolio.git/static/js/main.ea9841ee.js.map",
+    "644.19b50bd9.chunk.js.map": "/Jboy2124/my-portfolio.git/static/js/644.19b50bd9.chunk.js.map",
+    "213.0cefbe65.chunk.js.map": "/Jboy2124/my-portfolio.git/static/js/213.0cefbe65.chunk.js.map",
+    "333.985278b9.chunk.js.map": "/Jboy2124/my-portfolio.git/static/js/333.985278b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60033689.css",
+    "static/js/main.ea9841ee.js"
+  ]
+}

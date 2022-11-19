@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[333],{333:function(e,s,n){n.r(s);n(791);var t=n(184);s.default=function(){return(0,t.jsx)("div",{className:"bg-gray-300",children:(0,t.jsx)("div",{className:"container mx-auto",children:(0,t.jsx)("div",{className:"flex justify-center items-center min-h-screen",children:(0,t.jsx)("span",{className:"text-2xl text-gray-600 font-bold",children:"404: PAGE NOT FOUND"})})})})}}}]);
+//# sourceMappingURL=333.985278b9.chunk.js.map
