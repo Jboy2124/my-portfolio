@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { menu } from '../utils/menu-utils'
-import Resume from '../assets/downloads/ResumeJBAbecia.pdf'
 
 const NavbarFinal = () => {
     const [arrowMenu, setArrowMenu] = useState(true)
