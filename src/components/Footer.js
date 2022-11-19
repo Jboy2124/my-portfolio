@@ -2,21 +2,15 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-gray-200'>
+    <div className='bg-gray-300'>
         <div className='container mx-auto'>
-            <div className='h-[200px]'>
-                <div className='grid grid-cols-2 gap-5 place-items-center py-5'>
-                    <div className=''>
-                        Send me a message
-                        <div className='flex items-center w-[300px] h-[30px] bg-gray-300'>
-                            <input type="email" 
-                                    name="email" 
-                                    placeholder='example@email.com' 
-                                    className='px-2 h-full text-[14px] outline-none font-poppins'
-                                    />
-                        </div>
+            <div className='grid grid-cols-1 place-items-center'>
+                <div className='h-[60px]'>
+                    <div className='h-full flex justify-center items-center space-x-1'>
+                        <div className='text-[25px] text-slate-600 cursor-pointer font-poppins hover:text-slate-800 antialiased transition-all duration-300 ease-in-out'><ion-icon name="logo-facebook"></ion-icon></div>
+                        <div className='text-[24px] text-slate-600 cursor-pointer font-poppins hover:text-slate-800 antialiased transition-all duration-300 ease-in-out'><ion-icon name="logo-google"></ion-icon></div>
+                        <div className='text-[24px] text-slate-600 cursor-pointer font-poppins hover:text-slate-800 antialiased transition-all duration-300 ease-in-out'><ion-icon name="logo-linkedin"></ion-icon></div>
                     </div>
-                    <div>Right Side</div>
                 </div>
             </div>
         </div>

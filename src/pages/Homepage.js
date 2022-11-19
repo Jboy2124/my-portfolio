@@ -16,11 +16,20 @@ const Homepage = () => {
                         <img className='object-center object-cover' src={JBA} alt='my pic' />
                       </div>
                   </div>
-                  <div className='flex justify-center items-center overflow-hidden'>
+                  <div className='flex justify-center items-center mt-3'>
                     <span className='text-[30px] antialiased text-slate-600 font-poppins font-bold'>Jufel Bacalso Abecia</span>
                   </div>
                   <div className='flex justify-center items-center overflow-hidden'>
-                    <span className='text-[12px] antialiased text-slate-600 font-poppins font-bold'>FULL-STACK WEB DEVELOPER / DESKTOP APPLICATION DEVELOPER</span>
+                    <span className='text-[12px] antialiased text-slate-600 font-poppins font-bold'>FULL-STACK WEB DEVELOPER</span>
+                  </div>
+                  <div className='flex flex-wrap justify-center items-center mt-3'>
+                    <span className='text-[12px] text-slate-600 font-poppins italic'>"Web design is not about making a website—it’s 
+                      about making an investment in your organization. Successful web design takes into account more than just aesthetics… 
+                      It’s a reflection of you, your company, and your vision."
+                    </span>
+                  </div>
+                  <div className='flex justify-end items-center mt-3'>
+                    <span className='text-[12px] text-slate-600 font-poppins'>-unknown-</span>
                   </div>
                 </div>
             </div>
