@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { menu } from '../utils/menu-utils'
+import Resume from '../assets/downloads/ResumeJBAbecia.pdf'
 
 const NavbarFinal = () => {
     const [arrowMenu, setArrowMenu] = useState(true)
@@ -18,7 +19,7 @@ const NavbarFinal = () => {
                 </div>
                 <div className='flex justify-end items-center space-x-10'>
                     <div className='mobileSM:hidden mobileMD:hidden mobileLG:hidden tablet:block'>
-                        <ul className='flex items-center space-x-4 text-[15px] text-slate-600 font-poppins'>
+                        <ul className='flex items-center space-x-4 text-[16px] text-slate-600 font-poppins'>
                             {menu.map(items => {
                                 return(
                                     <li key={items.id} className='hover:text-slate-400 transition-all duration-300'><Link to={items.link}>{items.name}</Link></li>
@@ -27,7 +28,7 @@ const NavbarFinal = () => {
                         </ul>
                     </div>
                     <div className='mobileSM:hidden mobileMD:hidden mobileLG:hidden tablet:hidden laptop:block rounded border border-slate-600 cursor-pointer hover:bg-slate-300 hover:border-slate-500'>
-                        <div className='text-slate-600 text-[15px] px-10 py-2 font-poppins'>Download CV</div>
+                        <div className='text-slate-600 text-[16px] px-10 py-2 font-poppins'><Link to={Resume} target='_blank' download>Download CV</Link></div>
                     </div>
                     <div className='laptop:hidden desktop:hidden'>
                         <div className='text-[23px] text-slate-600 cursor-pointer hover:text-slate-500' onClick={() => { setArrowMenu(value => !value) }}>
@@ -39,7 +40,7 @@ const NavbarFinal = () => {
             <div className='flex justify-center items-center'>
                 <div className={`desktop:hidden laptop:hidden tablet:${(arrowMenu) ? 'hidden' : 'block'} mobileLG:${(arrowMenu) ? 'hidden' : 'block'} mobileMD:${(arrowMenu) ? 'hidden' : 'block'} mobileSM:${(arrowMenu) ? 'hidden' : 'block'}`}>
                     <div className='desktop:hidden laptop:hidden tablet:hidden w-full'>
-                        <ul className='grid place-items-center gap-1 text-[15px] text-slate-600 font-poppins'>
+                        <ul className='grid place-items-center gap-2 text-[16px] text-slate-600 font-poppins'>
                             {menu.map(items => {
                                 return(
                                     <li key={items.id} className='hover:text-slate-400 transition-all duration-300'><Link to={items.link}>{items.name}</Link></li>
@@ -48,7 +49,7 @@ const NavbarFinal = () => {
                         </ul>
                     </div>
                     <div className='rounded border border-slate-600 cursor-pointer hover:bg-slate-300 hover:border-slate-500 my-3'>
-                        <div className='text-slate-600 text-[15px] px-10 py-2 font-poppins'>Download CV</div>
+                        <div className='text-slate-600 text-[16px] px-10 py-2 font-poppins'><Link to={Resume} target='_blank' download>Download CV</Link></div>
                     </div>
                 </div>
             </div>
