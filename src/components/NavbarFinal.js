@@ -28,7 +28,7 @@ const NavbarFinal = () => {
                         </ul>
                     </div>
                     <div className='mobileSM:hidden mobileMD:hidden mobileLG:hidden tablet:hidden laptop:block rounded border border-slate-600 cursor-pointer hover:bg-slate-300 hover:border-slate-500'>
-                        <div className='text-slate-600 text-[15px] px-10 py-2 font-poppins'><Link to={Resume} target='_blank' download>Download CV</Link></div>
+                        <div className='text-slate-600 text-[15px] px-10 py-2 font-poppins'>Download CV</div>
                     </div>
                     <div className='laptop:hidden desktop:hidden'>
                         <div className='text-[23px] text-slate-600 cursor-pointer hover:text-slate-500' onClick={() => { setArrowMenu(value => !value) }}>
@@ -49,7 +49,7 @@ const NavbarFinal = () => {
                         </ul>
                     </div>
                     <div className='rounded border border-slate-600 cursor-pointer hover:bg-slate-300 hover:border-slate-500 my-3'>
-                        <div className='text-slate-600 text-[15px] px-10 py-2 font-poppins'><Link to={Resume} target='_blank' download>Download CV</Link></div>
+                        <div className='text-slate-600 text-[15px] px-10 py-2 font-poppins'>Download CV</div>
                     </div>
                 </div>
             </div>
