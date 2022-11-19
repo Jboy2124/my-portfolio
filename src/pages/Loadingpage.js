@@ -1,8 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ScaleLoader from 'react-spinners/ScaleLoader'
 
 const Loadingpage = () => {
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState(false)
+
+    useEffect(() => {
+        setLoading(true)
+    }, [])
   return (
     <div className='bg-white'>
         <div className='container mx-auto'>
