@@ -10,8 +10,8 @@ const WorkExperience = () => {
         <NavbarFinal />
         <div className='container mx-auto'>
            <div className='min-h-screen'>
-                <div className='min-h-[25vh] flex justify-center items-end'>
-                    <span className='text-[25px] text-slate-600 font-poppins font-semibold'>PROFESSIONAL WORK EXPERIENCES</span>
+                <div className='min-h-[10vh] flex justify-center items-center '>
+                    <span className='text-[22px] text-slate-600 font-poppins font-semibold'>PROFESSIONAL WORK EXPERIENCES</span>
                 </div>
                 <div className='min-h-[55vh] grid place-items-center gap-5 m-5 mobileSM:grid-cols-1 mobileMD:grid-cols-1 mobileLG:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 desktop:grid-cols-4'>
                     {exp.map(items => {
