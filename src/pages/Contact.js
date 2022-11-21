@@ -9,43 +9,31 @@ const Contact = () => {
         <NavbarFinal />
         <div className='container mx-auto'>
             <div className='min-h-screen flex justify-center items-center'>
-                <div className='w-[400px] h-[500px] bg-gray-200 rounded shadow-md'>
-                    <div className='mt-3 text-center'>
-                        <span className='text-[18px] text-slate-500 px-2 font-poppins'>Send Me A Message</span>
-                    </div>
-                    <div className='grid grid-cols-1 gap-3 place-items-center'>
-                        <div className='flex items-center w-[350px] mt-5'>
-                            <span className='px-2 text-[13px] text-slate-500 py-1 font-poppins'>Firstname </span>
-                            <input type='text' 
-                                    name='firstname' 
-                                    placeholder='' 
-                                    className='px-2 text-[13px] w-full py-1 font-poppins h-full outline-none'
-                                    />
+                <div className='bg-gray-300 rounded w-[650px] h-[400px] shadow-lg flex items-center'>
+                    <div className='w-full h-full bg-gray-300 rounded'>
+                        <div className='w-full h-[40px] bg-gray-500 flex justify-center items-center rounded-t'>
+                            <span className='text-[18px] text-white font-poppins font-semibold'>Send Message</span>
                         </div>
-                        <div className='flex items-center w-[350px]'>
-                            <span className='px-2 text-[13px] text-slate-500 py-1 font-poppins'>Lastname </span>
-                            <input type='text' 
-                                    name='lastname' 
-                                    placeholder='' 
-                                    className='px-2 text-[13px] w-full py-1 font-poppins h-full outline-none'
-                                    />
+                        <div className='w-full h-[35px] mt-7 flex items-center space-x-3 px-16'>
+                            <div className='flex items-center h-full w-[90px]'>
+                                <label className='text-[14px] text-slate-600 font-poppins'>Name:</label>
+                            </div>
+                            <input type='text' name='name' className='w-full h-full text-[14px] text-slate-600 font-poppins outline-none px-2' />
                         </div>
-                        <div className='flex items-center w-[350px]'>
-                            <span className='px-2 text-[13px] text-slate-500 py-1 font-poppins'>Email Address</span>
-                            <input type='email' 
-                                    name='email' 
-                                    placeholder='example@email.com' 
-                                    className='px-2 text-[13px] w-full py-1 font-poppins h-full outline-none'
-                                    />
+                        <div className='w-full h-[35px] mt-2 flex items-center space-x-3 px-16'>
+                            <div className='flex items-center h-full w-[90px]'>
+                                <label className='text-[14px] text-slate-600 font-poppins'>Email:</label>
+                            </div>
+                            <input type='email' name='name' placeholder='example@email.com' className='w-full h-full text-[14px] text-slate-600 font-poppins outline-none px-2' />
                         </div>
-                        <div className='flex w-[350px] h-[220px]'>
-                            <span className='px-2 text-[13px] text-slate-500 py-1 font-poppins'>Message </span>
-                            <textarea name='txtarea' rows='5' cols='10' className='h-full w-full outline-none text-[13px] font-poppins text-slate-500] resize-none px-2'>
-
-                            </textarea>
+                        <div className='w-full h-[180px] mt-2 flex px-16'>
+                            <div className='flex h-full w-[105px]'><label className='text-[14px] text-slate-600 font-poppins'>Message:</label></div>
+                            <textarea className='text-[14px] text-slate-600 font-poppins resize-none w-full h-full outline-none px-2 py-1'></textarea>
                         </div>
-                        <div className='mt-5'>
-                            <span className='rounded px-12 py-2 mt-10 border border-gray-400 text-slate-500 text-[13px] font-poppins cursor-pointer hover:bg-gray-300'>Submit</span>
+                        <div className='w-full h-[40px] mt-2 px-16'>
+                            <div className='flex justify-end items-center h-full'>
+                                <button className='text-[14px] text-slate-600 font-poppins border border-gray-500 rounded px-12 py-[6px] hover:bg-gray-500 hover:text-white transition-all duration-300 ease-in-out'>Send</button>
+                            </div>
                         </div>
                     </div>
                 </div>
