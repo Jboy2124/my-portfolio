@@ -9,7 +9,7 @@ export const exp = [
         image: Card4,
         company: 'Cubic Solutions Inc.',
         position: 'Full Stack Web Developer',
-        duration: 'July 2022 - October 2022',
+        duration: 'July 2022 - Present',
     },
     {
         id: 2,
